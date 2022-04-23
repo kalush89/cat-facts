@@ -1,0 +1,19 @@
+.app-button input[type=button]{
+        background-color: #04AA6D;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+        width: 100%;
+        border-radius: 15px;
+      
+}
+
+@media all and (min-width: 700px) {
+    .app-button input[type=button] {
+        width: 95%;
+        padding: 15px 30px;
+    }
+}

@@ -1,0 +1,21 @@
+.fact-card {
+    position: relative;
+    display: grid;
+    grid-template: min-content 1fr min-content / 1fr;
+    margin: 15px;
+    padding: 20px 20px 20px 20px;
+    max-width: 310px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 3px 8px 14px -13px rgba(0,0,0,1);
+    border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+}
+
+@media all and (min-width: 700px){
+
+    .fact-card {
+        grid-template: repeat(2, min-content) / 1.2fr 1.8fr;
+        max-width: 750px;
+        overflow: visible;
+    }
+}
