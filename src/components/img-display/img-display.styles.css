@@ -1,10 +1,14 @@
-.image-display {
+.img-display {
     grid-row: 1 / span 1;
 }
 
-.image-display img {
+.img-display {
+
+}
+
+.img-display img {
     object-fit: cover;
-    object-position: top;
+    object-position: center;
     height: 210px;
     width: 100%;
     border-radius: 10px 10px 0 0;
@@ -12,13 +16,13 @@
 
 @media all and (min-width: 700px){
 
-    .image-display {
+    .img-display {
         grid-row: 1 / span 2;
         height: 100%;
     }
 
-    .image-display > img {
-        object-position: left;
+    .img-display > img {
+        object-position: center;
         height: 100%;
         width: 100%;
         border-radius: 10px 0 0 10px;
